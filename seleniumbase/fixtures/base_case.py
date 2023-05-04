@@ -12624,6 +12624,7 @@ class BaseCase(unittest.TestCase):
             or url.startswith("file:")
             or url.startswith("edge:")
             or url.startswith("opera:")
+            or url.startswith("chrome-extension:")
             or url.startswith("view-source:")
         ):
             return True
